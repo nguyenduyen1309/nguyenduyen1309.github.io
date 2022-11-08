@@ -105,7 +105,14 @@ footer {
       font-weight: lighter;
       margin-top: 1.2rem;
 }
-
+#video {
+      grid-column: 2;
+      position: relative;
+      z-index: 1000;
+}
+#playvideo {
+      border-radius: 10%;
+}
 #music {
       grid-column: 2;
       position: relative;
